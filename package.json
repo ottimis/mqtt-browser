@@ -1,14 +1,14 @@
 {
-  "name": "mqtt-browser",
-  "version": "4.2.7",
+  "name": "@ottimis/mqtt-browser",
+  "version": "4.2.9",
   "main": "mqtt.js",
   "license": "MIT",
   "scripts": {
     "build": "cd node_modules/mqtt; npm install .; ../.bin/browserify mqtt.js -s mqtt > ../../mqtt.js"
   },
-  "types": "../mqtt/types/index.d.ts",
+  "types": "node_modules/mqtt/types/index.d.ts",
   "dependencies": {
-    "mqtt": "4.2.6"
+    "mqtt": "4.2.8"
   },
   "devDependencies": {
     "browserify": "17.0.0"
